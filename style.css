@@ -1,0 +1,55 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f0e1;
+    color: #3a2e2a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b4513;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.essay_one, .newsletter, .essay_two {
+    padding: 20px;
+    background-color: rgba(255, 245, 230, 0.8);
+    margin: 20px;
+    border-left: 5px solid #8b4513;
+}
+
+h1 {
+    color: #8b0000;
+    text-align: center;
+}
+
+/* Image Placeholder */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Smooth Scroll Effect */
+html {
+    scroll-behavior: smooth;
+}
+
+
