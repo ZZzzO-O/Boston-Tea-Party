@@ -135,7 +135,24 @@ nav ul li {
     background-color: #a0522d;
 }
 
+.signup, .signup input, .signup button {
+    all: unset;
 }
+.signup {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    background-color: rgba(255, 245, 230, 0.9) !important;
+    padding: 20px !important;
+    margin: 40px auto !important;
+    width: 90% !important;
+    max-width: 400px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
 
 
 /* Image Placeholder */
